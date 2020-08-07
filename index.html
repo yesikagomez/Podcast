@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Css/style.css">
-    <title>Document</title>
+    <title>Podcast</title>
 </head>
 <header>
     <img src="Imagenes/logo.svg" alt="">
@@ -21,7 +22,9 @@
 <body>
     <main>
         <section id="titulo">
-            <h1>Hello</h1><h1>world</h1><h1>pale blue dot.</h1>
+            <artivcle id="titulo-h1">
+                <h1>Hello </h1><h1 id="world">world</h1><h1>pale blue dot</h1><h1 id="punto">.</h1>
+            </artivcle>
             <p>El portal de podcast que explora el mundo de la programación y la tecnologia. Nueos episodios, todos los jueves cada 15 días.</p>
             <input type="submit" name="conocemas" value="CONOCÉ MÁS" id="submit_conoce">
         </section>
@@ -56,34 +59,45 @@
         <section id="topicos">
             <h2>Algunos de nuestros temas</h2>
             <article id="iconos">
-                <img src="Imagenes/icon1.svg" alt="">
-                <label>Trabajo remoto</label>
-                <img src="Imagenes/icon2.svg" alt="">
-                <label for="">Representando la programación</label>
-                <img src="Imagenes/icon3.svg" alt="">
-                <label for="">Bases del código</label>
-                <img src="Imagenes/icon4.svg" alt="">
-                <label for="">Seguridad informática</label>
+                <aside id="icon1">
+                    <img src="Imagenes/icon1.svg" alt="">
+                    <label>Trabajo remoto</label>
+                </aside>
+                <aside id="icon2">
+                    <img src="Imagenes/icon2.svg" alt="">
+                    <label for="">Representando la programación</label>
+                </aside>
+                <aside id="icon3">
+                    <img src="Imagenes/icon3.svg" alt="">
+                    <label for="">Bases del código</label>
+                </aside>
+                <aside id="icon4">
+                    <img src="Imagenes/icon4.svg" alt="">
+                    <label for="">Seguridad informática</label>
+                </aside>
             </article>
         </section>
         <section id="ultimas_novedades">
             <svg viewBox="0 0 100 100" preserveAspectRatio="none">
                 <polygon points="0,100 100,0 0,0" />
             </svg>
-            <h3>¿Querés las últimas novedades?</h3>
-            <input type="submit" name="escucha" id="submit_escucha" value="ESCUCHÁ LOS EPISODIOS">
-        
+            <article id="ultimas">
+                <h3>¿Querés las últimas novedades?</h3>
+                <input type="submit" name="escucha" id="submit_escucha" value="ESCUCHÁ LOS EPISODIOS">
+            </article>
         </section>
     </main>
 </body>
 <footer>
-    <span> 2019- Hello blue pale dot</span>
+    <h1>© 2019- Hello blue pale dot</h1>
     <article id="redes">
-        <a href=""><img src="" alt=""></a>
-        <a href=""><img src="" alt=""></a>
-        <a href=""><img src="" alt=""></a>
-        <a href=""><img src="" alt=""></a>
-        <a href=""><img src="" alt=""></a>
+        <ul>
+            <li><a href=""><img src="Imagenes/spotify.png" alt=""></a></li>
+            <li><a href=""><img src="Imagenes/instagram.png" alt=""></a></li>
+            <li><a href=""><img src="Imagenes/gorjeo.png" alt=""></a></li>
+            <li><a href=""><img src="Imagenes/facebook.png" alt=""></a></li>
+            <li><a href=""><img src="Imagenes/telegrama.png" alt=""></a></li>
+        </ul>
     </article>
 </footer>
 </html>
