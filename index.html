@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Css/style.css">
     <title>Document</title>
 </head>
 <header>
     <img src="Imagenes/logo.svg" alt="">
-    <nav>
+    <nav id="navegacion">
         <ul>
             <li><a href="#episodios">EPISODIOS</a></li>
             <li><a href="#nosotros">NOSOTROS</a></li>
@@ -20,27 +21,31 @@
 <body>
     <main>
         <section id="titulo">
-            <h1>Hello world pale blue dot.</h1>
+            <h1>Hello</h1><h1>world</h1><h1>pale blue dot.</h1>
             <p>El portal de podcast que explora el mundo de la programación y la tecnologia. Nueos episodios, todos los jueves cada 15 días.</p>
             <input type="submit" name="conocemas" value="CONOCÉ MÁS" id="submit_conoce">
         </section>
         <section id="episodios">
             <article id="podcast">
-                <img src="Imagenes/embed1.png" alt="">
-                <img src="Imagenes/embed2.png" alt="">
-                <img src="Imagenes/embed3.png" alt="">
-                <img src="Imagenes/embed4.png" alt="">
+                <h1>Episodios</h1>
+                <aside id="imagenes">
+                    <img src="Imagenes/embed1.png" alt="">
+                    <img src="Imagenes/embed2.png" alt="">
+                    <img src="Imagenes/embed3.png" alt="">
+                    <img src="Imagenes/embed4.png" alt="">
+                </aside>
             </article>
         </section>
         <section id="nosotros">
             <img src="Imagenes/phone.png" alt="">
             <article id= "Informacion">
-                <h2>De dónde venimos</h2>
-                <p>Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light.</p>
-                <p>Our Planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save ud from ourselves.</p>
+                <h1>De dónde venimos</h1>
+                <p id="p1">Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light.</p>
+                <p id="p2">Our Planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save ud from ourselves.</p>
             </article>
         </section>
         <section id="entrevistas">
+            <h1>Invitadas/os estelares</h1>
             <img src="Imagenes/grace-hopper.png" alt="">
             <img src="Imagenes/Katie-Bouman.png" alt="">
             <img src="Imagenes/Margaret_Hamilton.png" alt="">
@@ -50,14 +55,16 @@
         </section>
         <section id="topicos">
             <h2>Algunos de nuestros temas</h2>
-            <img src="Imagenes/icon1.svg" alt="">
-            <label>Trabajo remoto</label>
-            <img src="Imagenes/icon2.svg" alt="">
-            <label for="">Representando la programación</label>
-            <img src="Imagenes/icon3.svg" alt="">
-            <label for="">Bases del código</label>
-            <img src="Imagenes/icon4.svg" alt="">
-            <label for="">Seguridad informática</label>
+            <article id="iconos">
+                <img src="Imagenes/icon1.svg" alt="">
+                <label>Trabajo remoto</label>
+                <img src="Imagenes/icon2.svg" alt="">
+                <label for="">Representando la programación</label>
+                <img src="Imagenes/icon3.svg" alt="">
+                <label for="">Bases del código</label>
+                <img src="Imagenes/icon4.svg" alt="">
+                <label for="">Seguridad informática</label>
+            </article>
         </section>
         <section id="ultimas_novedades">
             <svg viewBox="0 0 100 100" preserveAspectRatio="none">
