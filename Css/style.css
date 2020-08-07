@@ -81,7 +81,7 @@ header img {
 
 #episodios{
     width: 100%;
-    height: 1042px;
+    height: 980px;
     margin-top: 170px;
     position: relative;
     background: linear-gradient(#0000FF, #0000A3); 
@@ -118,7 +118,7 @@ header img {
     width: 457px;
     height: 660px;
     position: absolute;
-    top: 1323px;
+    top: 1150px;
     left: 33px;
     margin-left: 200px;
     margin-top: 60px;
@@ -131,8 +131,8 @@ header img {
     letter-spacing: 0;
     position: absolute;
     margin-top: 20px;
-    top: 1512px;
-    right: 720px;
+    top: 1400px;
+    left: 800px;
     font-family: 'IBM Plex Sans';
 }
 
@@ -144,8 +144,8 @@ header img {
     width: 464px;
     height: 204px;
     position: absolute;
-    top: 1598px;
-    right: 760px;
+    top: 1500px;
+    left:800px;
     text-align: justify;
 }
 #nosotros #Informacion #p2 {
@@ -156,13 +156,13 @@ header img {
     width: 464px;
     height: 204px;
     position: absolute;
-    top: 1700px;
-    right: 760px;
+    top: 1600px;
+    left: 000px;
     text-align: justify;
 }
 
 #entrevistas {
-    padding-top: 343px ;
+    padding-top: 400px ;
     margin-left: 35px;
 }
 
@@ -172,6 +172,12 @@ header img {
     letter-spacing: 0;
     margin-left: 200px;
     font-family: 'IBM Plex Sans';
+}
+
+#entrevistas img {
+    width: 480px;
+    height: 360px;
+    margin-left: 0px;
 }
 
 #topicos h2 {
@@ -185,7 +191,6 @@ header img {
 #topicos #iconos {
     display: flex;
     flex-direction: row;
-    margin-left: 276px;
     margin-top: 69px;
 } 
 
@@ -265,6 +270,10 @@ svg {
 
 #ultimas_novedades h3{
     margin-left: 500px;
+}
+
+#ultimas_novedades #ultimas {
+    margin-left: -200px;
 }
 
 footer {
